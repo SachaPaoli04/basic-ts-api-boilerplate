@@ -4,10 +4,7 @@ import usersRouter from "./routes/users";
 import pizzaRouter from "./routes/pizzas";
 import filmsRouter from "./routes/films";
 
-
-
 const app = express();
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
